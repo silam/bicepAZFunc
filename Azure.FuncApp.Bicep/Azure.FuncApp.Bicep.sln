@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Azure.FuncApp.Bicep", "Azure.FuncApp.Bicep.csproj", "{A9F72A7B-F06F-4B39-BC72-C6EDF264BC89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9F72A7B-F06F-4B39-BC72-C6EDF264BC89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9F72A7B-F06F-4B39-BC72-C6EDF264BC89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9F72A7B-F06F-4B39-BC72-C6EDF264BC89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9F72A7B-F06F-4B39-BC72-C6EDF264BC89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EDFD293-44B8-46A9-BDF1-2C6C7053AA15}
+	EndGlobalSection
+EndGlobal

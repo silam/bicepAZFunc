@@ -1,0 +1,22 @@
+variables:
+  #- group: FunkyDemo  
+  - name: funcAppName
+    value: sl-azfn-bicep-$(environmentName)
+  - name: keyVaultName
+    value: sl-azkv-bicep-$(environmentName)
+  - name: rgName
+    value: sl-azrg-azbicep-$(environmentName)
+  - name: rgLocation
+    value: West US
+  - name: sgName
+    value: "slsgbicepazfuncdemo$(environmentName)"
+  - name: sgLocation
+    value: West US
+  - name: sgType
+    value: Standard_GRS
+  - name: planName
+    value: plan-sl-azbicepazfuncdemo-$(environmentName)
+  - name: planSku
+    value: Y1
+  - name: planTier
+    value: Dynamic
